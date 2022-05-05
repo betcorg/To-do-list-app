@@ -14,18 +14,27 @@
 </head>
 
 <body>
+
     <div class="container">
+
         <div class="newtask">
-            <input type="text" placeholder="Tareas por hacer...">
+            <input type="text" placeholder="Tareas por hacer..."/>
             <button id="push">
                 <i class="fa-solid fa-plus"></i>
             </button>
         </div>
-        <div class="tasks">
+
+        <div class="tasks" id="current">
             <h2>Tareas pendientes</h2>
             <p>Aun no hay ninguna tarea</p>
         </div>
+
+        <div class="tasks" id="done-container">
+            <h2>Tareas completadas</h2>
+        </div>
+
     </div>
+
     <script src="app.js"></script>
 </body>
 
